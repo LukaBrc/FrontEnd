@@ -15,6 +15,22 @@ img#fotoMia{
      padding: 5px;
      width: 80px; 
 }
+a:link {
+     color: blueviolet;
+     text-decoration: none;
+}
+a:visited {
+     color: violet;
+     text-decoration: none;
+}
+a:hover {
+     color: magenta;
+     text-decoration: none;
+}
+a:active {
+     color: blue;
+     text-decoration: none;
+}
 h1{
      background-color: #5C277F;
      color: white;
@@ -28,6 +44,19 @@ h2.tituloSec{
      background-color: #5C277F;
      color: white;
      letter-spacing: 5px;
+}
+h2.tituloSecAbout{
+     text-align: center;
+     text-transform: uppercase;
+     background-color: #5C277F;
+     color: white;
+     letter-spacing: 5px;
+}
+.textoAbout{
+     color: white;
+     font-size: 18px;
+     padding: 0 150px 0 150px;
+     text-align: justify;
 }
 em{
      font-weight: bolder;
