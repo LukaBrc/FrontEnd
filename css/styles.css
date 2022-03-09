@@ -1,0 +1,116 @@
+@font-face {
+     font-family: Roboto;
+     src: url(/fonts/Roboto/Roboto-Regular.ttf);
+}
+*{
+     font-family: 'Roboto' ,sans-serif;
+}
+body{
+     margin: 0;
+}
+body nav{
+     background-color: #222222;
+     display: flex;
+     justify-content: space-between;
+}
+body nav div{
+     display: flex;
+     align-items: center;
+}
+#divDer{
+     color: whitesmoke;
+     justify-content: space-evenly;
+}
+body nav div p{
+     font-size: 17px;
+     margin-right: 25px;
+}
+body nav img{
+     display: inline-block;
+     margin: 10px;
+}
+body nav h1{
+     color: white;
+     display: inline-block;
+     font-size: x-large;
+     margin-left: 5px;
+}
+.spanVerde{
+     color:green;
+}
+.spanRojo{
+     color:red;
+}
+main{
+     background-color: whitesmoke;
+     display: flex;
+     justify-content: space-around;
+     padding: 30px 20px 20px 20px ;
+}
+#section1{
+     background-image: url(/img/delivery.jpg);
+     background-size: cover;
+     border-radius: 5px;
+     height: 350px;
+     width: 490px;
+}
+#section1 h3{
+     color: crimson;
+     font-size: 23px;
+     margin: 17px 0 0 24px;
+}
+#section1 h3 span{
+     color: white;
+}
+#section2{
+     background-color: white;
+     border-radius: 5px;
+     width: 490px;
+}
+#section2 h3{
+     color: crimson;
+     font-size: 23px;
+     text-align: center;
+}
+#section2 h4{
+     margin-left: 70px;
+     margin-bottom: 0;
+     font-size: 20px;
+     font-weight: bolder;
+}
+#section2 ol{
+     display: inline-block;
+     font-size: 16px;
+     font-weight: bold;
+     margin-left: 30px;
+     line-height: 30px;
+}
+#section2 img{
+     margin-left: 90px;
+     margin-bottom: 20px;
+}
+footer{
+     background-color: #222222;
+     display: flex;
+     justify-content: space-between;
+}
+#footerIzq{
+     color: white;
+     font-size: 15px;
+     margin-left: 20px;
+}
+#footerDer{
+     display: flex;
+     align-items: center;
+}
+#footerDer img{
+     display: inline-block;
+     margin: 10px;
+}
+#footerDer p{
+     color: white;
+     display: inline-block;
+     font-size: 20px;
+     font-weight: bolder;
+     margin-right: 30px;
+}
