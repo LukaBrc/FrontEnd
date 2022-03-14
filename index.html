@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Clase12_PetShop</title>
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+     <header>
+          <div id="topBanner">
+               <p>Grandes ofertas en comederos</p>
+               <div><a href="">Español <img src="/img/down_btn.png" alt="v"></a><a href="">ARG$ <img src="/img/down_btn.png" alt="v"></a></div>
+          </div>
+          <nav>
+               <div id="mainLogo">
+                    <img src="/img/logo_gatito.png" alt="Logo Gatito">
+                    <p>Front<span>Cat&Dog</span></p>
+                    <img src="img/logo_perrito.png" alt="Logo Perrito">
+               </div>
+               <div id="navItems">
+                    <a href="#sectionDestacados"><img src="/img/pawprintNav.png" alt="%">Categorias</a>
+                    <a href="#sectionLanding"><img src="/img/pawprintNav.png" alt="%">Pets</a>
+                    <a href="#footer"><img src="/img/pawprintNav.png" alt="%">Nosotros</a>
+                    <a href="#sectionContacto"><img src="/img/pawprintNav.png" alt="%">Contactanos</a>
+               </div>
+          </nav>
+     </header>
+     <main>
+          <section id="sectionLanding">
+               <div id="floaterContent">
+                    <h2>¡Es un placer tenerte aquí!</h2>
+                    <p>¡Comederos en descuento!</p>
+                    <button>COMEDEROS</button>
+               </div>
+          </section>
+          <section id="sectionDestacados">
+               <div id="destacadosContainer">
+                    <img src="/img/pawprint.png" alt="Patita">
+                    <h1>Productos Destacados</h1>
+                    <p><a href="">Comederos</a> - <a href="">Accesorios</a> - <a href="">Comida</a></p>
+               </div>
+               <div id="productosContainer">
+                    <div class="producto">
+                         <img src="img/churrasquito.png" alt="Foto Juguete Churrasquito">
+                         <p>Juguete Churrasquito</p>
+                         <p class="precio">$150</p>
+                    </div>
+                    <div class="producto">
+                         <img src="img/comedero.png" alt="Foto Comedero">
+                         <p>Comedero para perro</p>
+                         <p class="precio">$250</p>
+                    </div>
+                    <div class="producto">
+                         <img src="/img/huesito.png" alt="Foto Juguete Huesito">
+                         <p>Juguete Huesito</p>
+                         <p class="precio">$650</p>
+                    </div>
+               </div>
+          </section>
+          <section id="sectionContacto">
+               <div id="contactoContainer">
+                    <h3>Contáctanos</h3>
+                    <form action="#sectionDestacados" id="form1">
+                         <input type="text" placeholder="Nombre y Apellido" required><br>
+                         <input type="email" placeholder="Ingresá tu correo electrónico" required><br>
+                         <input type="number" placeholder="Teléfono" required>
+                    </form>
+                    <div>
+                         <button type="reset" form="form1" id="btn1">Resetear</button>
+                         <button type="submit" form="form1" id="btn2">Enviar</button>
+                    </div>
+               </div>
+          </section>
+     </main>
+     <footer id="footer">
+          <div id="topBar">     
+               <div id="msjContainer">
+                    <img src="img/enviarCorreo.png" alt="Icono_Correo">
+                    <h3>Suscríbete para más novedades</h3>
+               </div>
+               <form action="#footer" id="form2">
+                    <input type="email" placeholder="Ingresá tu correo electrónico" required>
+                    <button type="submit" form="form2" id="btn3">Suscribirme</button>
+               </form>
+          </div>     
+          <div id="midBar">
+               <div id="containerIco">
+                    <div>
+                         <img src="/img/ico_location.png" alt="Ico_ubicacion">
+                         <div>
+                              <p>Localidad</p>
+                              <p class="mini">Calle - Provinica</p>
+                         </div>
+                         
+                    </div>
+                    <div>
+                         <img src="/img/ico_telefono.png" alt="Ico_telefono">
+                         <div>
+                              <p>Teléfono</p>
+                              <p class="mini">Número de Teléfono</p>
+                         </div>
+                    </div>
+                    <div>
+                         <img src="/img/ico_correo.png" alt="Ico_Correo">
+                         <div>
+                              <p>Correo Electrónico</p>
+                              <p class="mini">Dirección de correo</p>
+                         </div>
+                    </div>
+               </div>
+               <div id="containerLogoFooter">
+                    <img src="/img/logo_gatito.png" alt="logo_gatito">
+                    <p>Front<span>Cat&Dog</span></p>
+                    <img src="/img/logo_perrito.png" alt="logo_perrito">
+               </div>
+          </div>
+          <div id="realBottom">
+               <p>Todos los derechos reservados Front End</p>
+          </div>
+     </footer>
+</body>
+</html>

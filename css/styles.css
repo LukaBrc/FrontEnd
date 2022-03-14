@@ -1,0 +1,354 @@
+*{
+     font-family: 'Roboto', sans-serif;
+}
+body {
+     margin: 0;
+}
+
+/* ===== BANNER TOP ===== */
+
+#topBanner {
+     background-color: #222222;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 0 50px 0 50px;
+}
+#topBanner p {
+     margin: 2px;
+     font-size: 11px;
+     display: flex;
+     color: white;
+}
+#topBanner div {
+     display: flex;
+}
+#topBanner div a {
+     margin-left: 15px;
+     color: white;
+     font-size: 11px;
+     text-decoration: none;
+}
+#topBanner div a:link {
+     text-decoration: none;
+     color: white;
+}
+#topBanner div a:visited {
+     color: white;
+}
+#topBanner div a:hover {
+     color: #cccccc;
+}
+#topBanner div a:active {
+     color: #cccccc;
+}
+
+/* ===== NAVBAR ===== */
+
+header nav {
+     align-items: center;
+     background-color: #F1A83F;
+     display: flex;
+     justify-content: space-between;
+     padding: 0 25px 0 25px;
+}
+#mainLogo{
+     display: flex;
+     align-items: center;
+}
+#mainLogo p{
+     font-weight: bold;
+     font-size: 15px;
+}
+#mainLogo p span{
+     color: white;
+}
+#navItems{
+     display: flex;
+     align-items: center;
+}
+#navItems img{
+     padding: 0 3px 0 0;
+     box-sizing: border-box;
+}
+#navItems a {
+     display: flex;
+     align-items: center;
+     font-size: 11px;
+     padding: 0 15px 0 10px;
+}
+#navItems a:link {
+     text-decoration: none;
+     color: white;
+}
+#navItems a:visited {
+     color: white;
+}
+#navItems a:hover {
+     color: #000000;
+}
+#navItems a:active {
+     color: #cccccc;
+}
+
+/* ===== MAIN: SECTION I ===== */
+
+#sectionLanding{
+     background-image: url(/img/bowl_background.png);
+     background-repeat: no-repeat;
+     background-size: cover;
+     display: flex;
+     justify-content: flex-end;
+     padding: 100px 0 150px 0;
+}
+#floaterContent{
+     margin-right: 25px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+}
+#floaterContent h2{
+     font-weight: normal;
+     background-color: white;
+     border-radius: 5px;
+     padding: 7px;
+     margin: 0;
+}
+#floaterContent p {
+     margin: 10px;
+     font-weight: bold;
+     font-size: 13px;
+}
+#floaterContent button {
+     background-color: #F1A83F;
+     color: white;
+     padding: 12px;
+     border: none;
+     border-radius: 5px;
+}
+#floaterContent button:hover {
+     background-color: black;
+     color: #F1A83F;
+}
+
+/* ===== MAIN: SECTION II ===== */
+
+#sectionDestacados {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+}
+#destacadosContainer {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     padding-bottom: 25px;
+}
+#destacadosContainer img {
+     padding: 15px;
+}
+#destacadosContainer h1 {
+     margin: 0;
+     font-size: 30px;
+}
+#destacadosContainer p {
+     margin: 15px 0;
+}
+#destacadosContainer p a{
+     text-decoration: none;
+     font-size: 12px;
+     color: black;
+     margin: 0 10px;
+}
+#destacadosContainer p a:link {
+     text-decoration: none;
+     color: black;
+}
+#destacadosContainer p a:visited {
+     color: black;
+}
+#destacadosContainer p a:hover {
+     color: #F1A83F;
+}
+#destacadosContainer p a:active {
+     color: black;
+}
+#productosContainer {
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: space-around;
+}
+.producto {
+     background-color: #F9FBF6;
+     margin: 0 10px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     padding-bottom: 15px;
+}
+.producto p {
+     font-size: 13px;
+     font-weight: bold;
+     margin: 0;
+}
+.precio {
+     color: #F1A83F;
+}
+
+/* ===== MAIN: SECTION III ===== */
+
+#sectionContacto {
+     margin-top: 25px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+}
+#contactoContainer{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     width: 300px;
+}
+#contactoContainer h3 {
+     margin: 15px 0;
+}
+#contactoContainer form{
+     width: 100%;
+}
+#contactoContainer form input{
+     color: white;
+     width: 100%;
+     margin: 7px 0;
+     border-radius: 15px;
+     height: 30px;
+     background-color: #3D2314;
+     border: 0;
+     padding: 5px 5px 5px 15px;
+     font-size: 10px;
+}
+::placeholder{
+     color: silver;
+}
+#contactoContainer div {
+     margin-top: 25px;
+}
+#contactoContainer div button{
+     border-radius: 15px;
+     border: 0;
+     padding: 10px 25px;
+     color: white;
+     font-size: 15px;
+}
+#btn1 {
+     background-color: #8B8788;
+}
+#btn1:hover{
+     background-color: #3D2314;
+}
+#btn2 {
+     background-color: #F1A83F;
+}
+#btn2:hover{
+     background-color: #3D2314;
+}
+
+/* ===== FOOTER ===== */
+
+footer{
+     margin-top: 80px;
+     box-sizing: border-box;
+}
+#topBar{
+     background-color: #F1A83F;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+
+}
+#msjContainer{
+     display: flex;
+     align-items: center;
+}
+#msjContainer img {
+     margin: 0 10px 0 25px;
+}
+#msjContainer h3 {
+     margin: 0;
+     color: white;
+}
+#topBar form input{
+     color: white;
+     margin: 7px 0;
+     border-radius: 12px;
+     height: 20px;
+     background-color: white;
+     border: 0;
+     padding: 5px 100px 5px 15px;
+     font-size: 10px;
+}
+#topBar form button {
+     border-radius: 15px;
+     border: 0;
+     margin-right: 30px;
+     color: white;
+     font-size: 10px;
+     background-color: #3D2314;
+     height: 30px;
+     padding: 0 15px 0 15px;
+}
+#topBar form button:hover{
+     background-color: white;
+     color: black;
+}
+#midBar {
+     background-color: #3D2314;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+}
+#containerIco{
+     display: flex;
+     flex-direction: column;
+     margin-left: 50px;
+}
+#containerIco div{
+     display: flex;
+     margin: 10px;
+}
+#containerIco div div{
+     display: flex;
+     flex-direction: column;
+}
+#containerIco div div p{
+     margin: 0;
+     font-size: 14px;
+     color: white;
+}
+#containerIco div div p.mini{
+     color: gray;
+     font-size: 9px;
+}
+#containerLogoFooter {
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     margin-right: 50px;
+}
+#containerLogoFooter p {
+     color: white;
+}
+#containerLogoFooter p span{
+     color: #F1A83F;
+}
+#realBottom{
+     display: flex;
+     justify-content: center;
+     background-color: black;
+     padding: 5px;
+}
+#realBottom p{
+     margin: 0;
+     color: gray;
+     font-size: 10px;
+}
