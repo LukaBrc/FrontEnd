@@ -8,9 +8,9 @@ body{
 }
 #barraDescuento{
      align-items: center;
-     background-color: #1CD1B0;
+     background-color: #D1891C;
      display: flex;
-     font-size: 12px;;
+     font-size: 13px;;
      font-weight: bold;
      height: 25px;
      justify-content: flex-start;
@@ -22,16 +22,20 @@ body{
      display: flex;
      height: 70px;
      justify-content: flex-start;
-     margin-bottom: 70px;
+     margin-bottom: 50px;
      margin-top: 0;
      padding-left: 12px;
+     color: white;
 }
 .sombreado {
 	box-shadow: 0 5px 8px 0 gray;
 }
-section{
+section{ 
+     position: relative;
      display: flex;
+     flex-wrap: wrap;
      justify-content: space-around;
+     margin-bottom: 20vh;
 }
 article{
      align-items: center;
@@ -39,25 +43,28 @@ article{
      box-sizing: border-box;
      display: flex;
      flex-direction: column;
-     height: 420px;
+     height: auto;
      justify-content: flex-start;
-     margin-bottom: 155px;
+     margin: 20px 20px 50px 20px;
      position: relative;
-     width: 220px;
+     border-radius: 15px 15px 0 0;
+     width: 300px;
 }
 section article img{
      box-sizing: border-box;
      display: flex;
-     
+     border-radius: 15px 15px 0 0;
 }
 .cover{
-     width: 220px;
+     width: 100%;
+     height: auto;
 }
 .perfil{
      border-radius: 50%;
      position: absolute;
-     top: 95px;
-     width: 90px;
+     top: 110px;
+     width: 135px;
+     height: auto;
 }
 .corazoncito{
      position: absolute;
@@ -66,10 +73,10 @@ section article img{
      width: 25px;
 }
 section article h2 {
-     margin: 60px 0 0 0;
+     margin: 80px 0 0 0;
 }
 section article p {
-     font-size: 12px;
+     font-size: 14px;
      font-weight: bolder;
      padding: 0 15px;;
 }
@@ -77,8 +84,24 @@ section article button{
      background-color: #00669F;
      color: white;
      font-size: 10px;
-     margin-top: 20px;
+     margin: 20px 0;
      padding: 10px 30px;
+     border-radius: 3px;
+}
+#circulo{
+     background-color: #00669F;
+     position: fixed;
+     bottom: 80px;
+     right: 5px;
+     height: 80px;
+     width: 80px;
+     border-radius: 50%;
+     color: white;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     font-size: 55px;
+     font-weight: bold;
 }
 footer{
      align-items: center;
@@ -86,7 +109,15 @@ footer{
      color: white;
      display: flex;
      font-size: 12px;
-     justify-content: flex-start;
+     justify-content: center;
      margin-top: auto;
-     padding-left: 10px;
+     height: 60px;
+}
+#logoGit{
+     display: flex;
+     position: absolute;
+     right: 20px;
+}
+#logoGit img{
+     height: 25px;
 }
