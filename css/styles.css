@@ -63,7 +63,11 @@ header nav {
 #mainLogo p span{
      color: white;
 }
+#navConteiner em{
+     display: none;
+}
 #navItems{
+     list-style-type: none;
      display: flex;
      align-items: center;
 }
@@ -351,4 +355,91 @@ footer{
      margin: 0;
      color: gray;
      font-size: 10px;
+}
+
+@media (max-width: 870px) {
+     #topBanner{
+          display: none;
+     }
+     #navConteiner em{
+          display: block;
+          color: white;
+          font-size: 30px;
+     }
+     #navItems{
+          display: none;
+     }
+     #sectionLanding{
+          justify-content: center;
+     }
+     #floaterContent{
+          margin: 0;
+          align-items: flex-end;
+     }
+     #floaterContent p{
+          margin: 5px 10px 5px 0;
+          padding: 5px 10px;
+          background-color: white;
+     }
+     #floaterContent button{
+          margin-right: 15px;
+     }
+     #productosContainer{
+          flex-direction: column;
+     }
+     #contactoContainer{
+          width: 90%;
+     }
+     #contactoContainer form input{
+          width: 95%;
+     }
+     #contactoContainer div{
+          display: flex;
+          justify-content: space-around;
+          width: 100%;
+     }
+     #contactoContainer div button{
+          display: flex;
+          width: 48%;
+          justify-content: center;
+     }
+     #topBar{
+          flex-direction: column;
+     }
+     #msjContainer{
+          width: 100%;
+          align-items: center;
+          justify-content: center;
+     }
+     #topBar img{
+          margin: 0 10px 0 0;
+     }
+     #form2{
+          display: flex;
+          align-items: center;
+          justify-content: space-around;
+          margin: 0;
+          width: 100%;
+     }
+     #topBar form input{
+          width: 40%;
+     }
+     #topBar form button#btn3{
+          margin: 7px 0 7px 0;
+          width: 30%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+     }
+     #midBar{
+          flex-direction: column-reverse;
+     }
+     #containerIco{
+          margin: 0;
+     }
+     #containerLogoFooter{
+          margin: 0;
+          width: 35%;
+          justify-content: space-evenly;
+     }
 }
