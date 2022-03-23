@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="styles/style.css">
+     <title>Clase16</title>
+</head>
+<body>
+     <header class="sombreado">
+          <div id="barraDescuento">20% de descuento en todos los productos!</div>
+          <a href="/index.html" id="containerBarra">
+               <img src="/img/logoTienda.png" alt="Logo Tienda">
+               <h1 id="barraTitulo">Nombre Tienda</h1>
+          </a>
+          <nav>
+               <ul>
+                    <li><a href="">Contacto</a></li>
+                    <li><a href="">Registrarme</a></li>
+                    <li><a href="">Ingresar</a></li>
+               </ul>
+          </nav>
+     </header>
+     <section>
+          <form id="formularioPrincipal" action="agregarSuper" method="POST">
+               <h2>Añadí tu super!</h2>
+               <p>Agregá tu personaje favorito completando las opciones.</p>
+               <div id="containerCol">
+                    <div id="col1">
+                         <label for="nombreSuper">*Nombre</label>
+                         <input type="text" name="nombreSuper" id="nombreSuper" required>
+                         <label for="fechaIndicada">Fecha</label>
+                         <input type="date" name="fechaIndicada" id="fechaIndicada">
+                         <textarea placeholder="Descripción" name="descripcionSuper" id="descripcionSuper" cols="20" rows="11"></textarea>
+                    </div>
+                    <div id="col2">
+                         <label for="especieSuper">*Especie</label>
+                         <select name="especieSuper" id="especieSuper" required>
+                              <option disabled selected hidden>Especie</option>
+                              <option value="Deviant">Deviant</option>
+                              <option value="Luphomoid">Luphomoid</option>
+                              <option value="Klyntar">Klyntar</option>
+                              <option value="Kronan">Kronan</option>
+                              <option value="Atlante">Atlante</option>
+                              <option value="Xandarian">Xandarian</option>
+                              <option value="Humano">Humano</option>
+                              <option value="Mutante">Mutante</option>
+                         </select>
+                         <label for="archivoSuper">Agregar Foto</label>
+                         <input type="file" name="archivoSuper" id="archivoSuper" required>
+                         <div>
+                              <label>Poderes</label>
+                              <label for="volar">
+                                   <input type="checkbox" name="poderes" id="volar" value="volar">Volar
+                              </label>
+                              <label for="inteligencia">
+                                   <input type="checkbox" name="poderes" id="inteligencia" value="inteligencia">Super Inteligencia
+                              </label>
+                              <label for="rayoLaser">
+                                   <input type="checkbox" name="poderes" id="rayoLaser" value="rayoLaser">Vista de Rayo Láser
+                              </label>
+                              <label for="billetera">
+                                   <input type="checkbox" name="poderes" id="billetera" value="billetera">Billetera Gorda
+                              </label>
+                         </div>
+                         <hr>
+                         <div>
+                              <label>
+                                   Tipo de personaje
+                              </label>
+                              <label for="heroe">
+                                   <input type="radio" name="tipoSuper" id="heroe" value="heroe">Héroe / Heroína
+                              </label>
+                              <label for="villano">
+                                   <input type="radio" name="tipoSuper" id="villano" value="villano">Villano / Villana
+                              </label>
+                         </div>
+
+                    </div>
+               </div>
+               <button type="submit" form="formularioPrincipal">Añadir</button>
+          </form>
+     </section>
+     <footer>
+          <p>Todos los derechos reservados a FRONT END 1</p>
+          <a id="logoGit" href="http://www.github.com" target="_blanc"><img src="/img/logoGithub.png" alt="Logo GitHub"></a>
+     </footer>
+</body>
+</html>
