@@ -1,1 +1,112 @@
-/* No CSS *//*# sourceMappingURL=styles.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Cardo&display=swap");
+* {
+  font-family: 'Cardo', serif;
+}
+
+body {
+  background-color: #0F0A32;
+}
+
+header {
+  background-image: url(../img/banner.jpg);
+  padding-top: 50px;
+}
+
+img#fotoMia {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  display: block;
+  height: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px;
+  width: 80px;
+}
+
+a:link {
+  color: blueviolet;
+  text-decoration: none;
+}
+
+a:visited {
+  color: violet;
+  text-decoration: none;
+}
+
+a:hover {
+  color: magenta;
+  text-decoration: none;
+}
+
+a:active {
+  color: blue;
+  text-decoration: none;
+}
+
+h1 {
+  background-color: #5C277F;
+  color: white;
+  letter-spacing: 5px;
+  margin-bottom: 80px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+h2.tituloSec {
+  text-transform: uppercase;
+  background-color: #5C277F;
+  color: white;
+  letter-spacing: 5px;
+}
+
+h2.tituloSecAbout {
+  text-align: center;
+  text-transform: uppercase;
+  background-color: #5C277F;
+  color: white;
+  letter-spacing: 5px;
+}
+
+.textoAbout {
+  color: white;
+  font-size: 18px;
+  padding: 0 150px 0 150px;
+  text-align: justify;
+}
+
+em {
+  font-weight: bolder;
+}
+
+span {
+  font-weight: bolder;
+}
+
+ul.noDot {
+  list-style-position: outside;
+  list-style-type: none;
+  padding-left: 10px;
+}
+
+li.sinLi {
+  padding-left: 80px;
+}
+
+ul {
+  color: white;
+}
+
+footer {
+  font-size: 15px;
+  margin-top: 70px;
+  text-transform: uppercase;
+  background-color: #5C277F;
+  color: white;
+  text-align: center;
+}
+
+footer p img {
+  margin: 4px 2px 0 7px;
+  height: 12px;
+}
+/*# sourceMappingURL=styles.css.map */
